@@ -1,15 +1,19 @@
 body{
-    margin: 0px;
+    margin: 0;
     font-family:sans-serif;
 }
 section{
-    height: 300px;
-    padding-bottom:10px;
+    height: 500px;
+    padding-bottom:100px;
+    padding-top: 150px;
+}
+ul{
+    margin: 0px;
 }
 nav li{
     list-style: none;
     float: left;
-    padding:0px 50px 0px 150px;
+    padding: 0% 10%;
 }
 nav a{
     text-decoration: none;
@@ -17,9 +21,10 @@ nav a{
 }
 nav{
     height:50px;
-    background-color: cadetblue;
-    font-size: 25px;
-    line-height:30px ;
+    background-color:dimgray;
+    font-size: 20px;
+    line-height:20px ;
+    padding-top:22px;
 }
 h1{
     font-size: 35px;
@@ -43,17 +48,44 @@ p{
     width:40%;
     margin-left: 5%;
     padding-left: 2%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
-.align{
+.adjust{
     text-align:center;
+    color:purple;
+    padding-bottom:30px;
+}
+.header{
+    background-image: url(images/header-bg.png);
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
 }
 .third-width{
     float: left;
-    width: 25%;
-    margin-left:6%;
-    padding-left:10px;
+    width: 22%;
+    margin-left:5%;
+    padding-left:4%;
 }
 .third-width img{
     width:100% ;
+}
+h4,h6{
+    color: dimgrey;
+}
+.spread{
+    height: 100px;
+    width:450px;
+    margin: 30px 350px;
+    background-color: rgb(167, 182, 192);
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: crimson;
 }
