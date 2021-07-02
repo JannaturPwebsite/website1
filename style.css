@@ -1,5 +1,10 @@
 body{
     margin: 0px;
+    font-family:sans-serif;
+}
+section{
+    height: 300px;
+    padding-bottom:10px;
 }
 nav li{
     list-style: none;
@@ -11,8 +16,44 @@ nav a{
     color:black;
 }
 nav{
-    height: 45px;
+    height:50px;
     background-color: cadetblue;
-    font-size: 15px;
+    font-size: 25px;
     line-height:30px ;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 25px;
+    color: crimson;
+}
+p{
+    color: dimgray;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,crimson,tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+.half-width{
+    float: left;
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 10px;
+}
+.align{
+    text-align:center;
+}
+.third-width{
+    float: left;
+    width: 25%;
+    margin-left:6%;
+    padding-left:10px;
+}
+.third-width img{
+    width:100% ;
 }
